@@ -211,7 +211,7 @@ html {
 
 
 .sobre {
-    padding: 80px;
+    padding: 20px;
     display: flex;
     justify-content: space-between;
 }
@@ -220,7 +220,7 @@ html {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 20px;
 }
 
 .titulo_valores {
@@ -242,7 +242,7 @@ html {
 .valores-topicos {
     display: flex;
     justify-content: space-evenly;
-    padding: 0 0 0 50px;
+    
 }
 
 .linha-valores {
@@ -354,57 +354,70 @@ footer {
         height: fit-content;
         gap: 40px;
     }
+
+    .cards-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        width: 100%;
+        padding-top: 20px;
+    }
+    
+    .card-perfil{
+        width: 60%;
+        height: fit-content;
+        padding: 5px;
+    }
+    
+    .linha-valores{
+        
+    }
+    
+    .conteudo-footer{
+        display: flex;
+        flex-direction: column;
+    }
+    .redes-sociais{
+        flex-direction: column;
+        margin: 8px 0;
+        text-align: center;
+    }
+    .icones{
+        display: flex;
+        justify-content: center;          
+    }
+    
+    .titulo_painel{
+        text-align: start;
+    
+    
+    }
+    .menu{
+        flex-direction: column;
+    }
+    
+    .titulo_valores{
+        font-size: 30px;
+        line-height: 45px;
+        text-align:start ;
+    }
+    
+    .titulo_perfil{
+        font-size: 20px;
+        line-height: 25px;
+    }
+    
+    .painel-principal{
+        padding: 30px;
+    }
+
+    .valores-topicos{
+     display: flex;
+     flex-direction: column;
+    }
+
+
+
+
 }
 
-.cards-container {
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-}
-
-.card-perfil{
-    width: 60%;
-    height: fit-content;
-}
-
-.linha-valores{
-    width: 120%;
-}
-
-.conteudo-footer{
-    display: flex;
-    flex-direction: column;
-}
-.redes-sociais{
-    flex-direction: column;
-    margin: 8px 0;
-    text-align: center;
-}
-.icones{
-    display: flex;
-    justify-content: center;          
-}
-
-.titulo_painel{
-    text-align: start;
-
-
-}
-.menu{
-    flex-direction: column;
-}
-
-.titulo_valores{
-    font-size: 30px;
-    line-height: 45px;
-    text-align:start ;
-}
-
-.titulo_perfil{
-    font-size: 35px;
-    line-height: 45px;
-}
-
-.painel-principal{
-    padding: 30px;
-}
